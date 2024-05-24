@@ -1,0 +1,120 @@
+﻿生成启动时间为 2022/8/21 15:16:36。
+日志记录详细程度设置为: Normal。     1>项目“D:\MyCode\CPP\RakSAMP\server\src\RakSAMPServer_2008.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“./obj/\RakSAMPServer.tlog\”。
+       InitializeBuildStatus:
+         正在创建“./obj/\RakSAMPServer.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /I./ /I../../raknet/ /I../../raknet/SAMP/ /I./LUA/ /nologo /W3 /WX- /diagnostics:column /O2 /Os /Oy /D CODE_ANALYSIS /D WIN32 /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm- /EHsc /MT /Zp1 /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"./obj/\\" /Fd"./obj/\vc143.pdb" /external:W3 /Gd /TP /analyze /analyze:projectdirectory"D:\MyCode\CPP\RakSAMP\server\src" /analyze:rulesetdirectory";D:\Microsoft Visual Studio\2022\Community\Team Tools\Static Analysis Tools\\Rule Sets;" /analyze:ruleset"D:\Microsoft Visual Studio\2022\Community\Team Tools\Static Analysis Tools\Rule Sets\NativeRecommendedRules.ruleset" /analyze:quiet /analyze:plugin"D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\EspXEngine.dll" /FC /errorReport:prompt ..\..\raknet\_findfirst.cpp ..\..\raknet\AsynchronousFileIO.cpp ..\..\raknet\BitStream.cpp ..\..\raknet\BitStream_NoTemplate.cpp ..\..\raknet\CheckSum.cpp ..\..\raknet\CommandParserInterface.cpp ..\..\raknet\ConsoleServer.cpp ..\..\raknet\DataBlockEncryptor.cpp ..\..\raknet\DataCompressor.cpp ..\..\raknet\DS_ByteQueue.cpp ..\..\raknet\DS_HuffmanEncodingTree.cpp ..\..\raknet\DS_Table.cpp ..\..\raknet\EncodeClassName.cpp ..\..\raknet\ExtendedOverlappedPool.cpp ..\..\raknet\FileOperations.cpp ..\..\raknet\GetTime.cpp ..\..\raknet\InternalPacketPool.cpp ..\..\raknet\LinuxStrings.cpp ..\..\raknet\LogCommandParser.cpp ..\..\raknet\NetworkIDGenerator.cpp ..\..\raknet\NetworkTypes.cpp ..\..\raknet\PluginInterface.cpp ..\..\raknet\RakClient.cpp ..\..\raknet\RakNetCommandParser.cpp ..\..\raknet\RakNetStatistics.cpp ..\..\raknet\RakNetworkFactory.cpp ..\..\raknet\RakPeer.cpp ..\..\raknet\rakserver.cpp ..\..\raknet\RakSleep.cpp ..\..\raknet\Rand.cpp ..\..\raknet\ReliabilityLayer.cpp ..\..\raknet\rijndael.cpp ..\..\raknet\RPCMap.cpp ..\..\raknet\SHA1.cpp ..\..\raknet\SimpleMutex.cpp ..\..\raknet\SocketLayer.cpp ..\..\raknet\StringCompressor.cpp ..\..\raknet\StringTable.cpp ..\..\raknet\SystemAddressList.cpp ..\..\raknet\SystemDatabaseClient.cpp ..\..\raknet\SystemDatabaseServer.cpp ..\..\raknet\TableSerializer.cpp ..\..\raknet\TCPInterface.cpp ..\..\raknet\TelnetTransport.cpp ..\..\raknet\SAMP\samp_netencr.cpp ..\..\raknet\SAMP\SAMPRPC.cpp ..\..\tinyxml\tinystr.cpp ..\..\tinyxml\tinyxml.cpp ..\..\tinyxml\tinyxmlerror.cpp ..\..\tinyxml\tinyxmlparser.cpp ..\..\common\common.cpp Events.cpp main.cpp misc_funcs.cpp netgame.cpp players.cpp query.cpp RPCs.cpp ScrFunctions.cpp ScrInternal.cpp vehicles.cpp
+         _findfirst.cpp
+         AsynchronousFileIO.cpp
+         BitStream.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         BitStream_NoTemplate.cpp
+         CheckSum.cpp
+         CommandParserInterface.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+     1>D:\MyCode\CPP\RakSAMP\raknet\CommandParserInterface.cpp(157,2): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>D:\MyCode\CPP\RakSAMP\raknet\CommandParserInterface.cpp(158,64): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         ConsoleServer.cpp
+         DataBlockEncryptor.cpp
+         DataCompressor.cpp
+         DS_ByteQueue.cpp
+         DS_HuffmanEncodingTree.cpp
+         DS_Table.cpp
+         EncodeClassName.cpp
+         ExtendedOverlappedPool.cpp
+         FileOperations.cpp
+         GetTime.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         InternalPacketPool.cpp
+         LinuxStrings.cpp
+         LogCommandParser.cpp
+         NetworkIDGenerator.cpp
+         正在运行 C/C++ 代码分析...
+         正在生成代码...
+         正在编译...
+         NetworkTypes.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+     1>D:\MyCode\CPP\RakSAMP\raknet\NetworkTypes.cpp(112,14): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>D:\MyCode\CPP\RakSAMP\raknet\NetworkTypes.cpp(131,16): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         PluginInterface.cpp
+         RakClient.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         RakNetCommandParser.cpp
+         RakNetStatistics.cpp
+         RakNetworkFactory.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         RakPeer.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+     1>D:\MyCode\CPP\RakSAMP\raknet\RakPeer.cpp(323,31): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>D:\MyCode\CPP\RakSAMP\raknet\RakPeer.cpp(325,31): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>D:\MyCode\CPP\RakSAMP\raknet\RakPeer.cpp(1954,9): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>D:\MyCode\CPP\RakSAMP\raknet\RakPeer.cpp(2502,28): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         -- RakNet: _RAKNET_THREADSAFE not defined.  Do NOT use multiple threads on the same instance of RakPeer (Fast!). --
+         rakserver.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         RakSleep.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         Rand.cpp
+         ReliabilityLayer.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         rijndael.cpp
+         RPCMap.cpp
+         SHA1.cpp
+         SimpleMutex.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         SocketLayer.cpp
+     1>D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+     1>D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(268,43): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(301,25): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(313,9): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(557,18): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(583,24): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+     1>D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(610,24): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         StringCompressor.cpp
+         StringTable.cpp
+         SystemAddressList.cpp
+         SystemDatabaseClient.cpp
+         正在运行 C/C++ 代码分析...
+     1>已完成生成项目“D:\MyCode\CPP\RakSAMP\server\src\RakSAMPServer_2008.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+       “D:\MyCode\CPP\RakSAMP\server\src\RakSAMPServer_2008.vcxproj”(Rebuild 目标) (1) ->
+       (ClCompile 目标) -> 
+         D:\MyCode\CPP\RakSAMP\raknet\CommandParserInterface.cpp(157,2): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\CommandParserInterface.cpp(158,64): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\NetworkTypes.cpp(112,14): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\NetworkTypes.cpp(131,16): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\RakPeer.cpp(323,31): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\RakPeer.cpp(325,31): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\RakPeer.cpp(1954,9): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\RakPeer.cpp(2502,28): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(268,43): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(301,25): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(313,9): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(557,18): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(583,24): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+         D:\MyCode\CPP\RakSAMP\raknet\SocketLayer.cpp(610,24): warning C4996: 'inet_ntoa': Use inet_ntop() or InetNtop() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+
+
+       “D:\MyCode\CPP\RakSAMP\server\src\RakSAMPServer_2008.vcxproj”(Rebuild 目标) (1) ->
+       (ClCompile 目标) -> 
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+         D:\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2535,40): error C2338: static_assert failed: 'Windows headers require the default packing option. Changing this can lead to memory corruption. This diagnostic can be disabled by building with WINDOWS_IGNORE_PACKING_MISMATCH defined.'
+
+    14 个警告
+    12 个错误
+
+已用时间 00:00:07.76

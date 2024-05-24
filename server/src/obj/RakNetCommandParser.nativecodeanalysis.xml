@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\MyCode\CPP\RakSAMP\raknet\</FILEPATH>
+      <FILENAME>RakNetCommandParser.cpp</FILENAME>
+      <LINE>14</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 RakNetCommandParser::peer。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>RakNetCommandParser::{ctor}</FUNCTION>
+    <DECORATED>??0RakNetCommandParser@@QAE@XZ</DECORATED>
+    <FUNCLINE>14</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>RakNetCommandParser::peer</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

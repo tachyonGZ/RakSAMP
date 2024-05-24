@@ -1,0 +1,117 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “_mkdir”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 48,
+                  "startColumn": 4,
+                  "endLine": 48,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WriteFileWithDirectories",
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "返回值被忽略: “_mkdir”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/FileOperations.cpp"
+                },
+                "region": {
+                  "startLine": 80,
+                  "startColumn": 3,
+                  "endLine": 80,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "WriteFileWithDirectories",
+                  "decoratedName": "?WriteFileWithDirectories@@YA_NPBDPADI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/FileOperations.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "2fde1f095ad7987c6a45d703348581abdf4e4d3bc0e938bab4cdd101bbf486f9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/_findfirst.h"
+          },
+          "hashes": {
+            "sha-256": "6f60d0a3c1c3aac9ebeb32e35f2e277c818e69a01e5e6badcc664da60358eba7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/fileoperations.h"
+          },
+          "hashes": {
+            "sha-256": "5aa996bb6b87fefd3b7e41d96685e3a7e988a0f2a857fc49f948cec6be94c1b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/export.h"
+          },
+          "hashes": {
+            "sha-256": "0c8ea223972a62e7564b8437f37e81eff4c8fa5a80f87e11b5498905f22cc21b"
+          }
+        }
+      ]
+    }
+  ]
+}

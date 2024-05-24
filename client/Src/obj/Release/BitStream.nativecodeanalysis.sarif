@@ -1,0 +1,752 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 RakNet::BitStream::stackData。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                },
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 12,
+                  "endLine": 57,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RakNet::BitStream::{ctor}",
+                  "decoratedName": "??0BitStream@RakNet@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "RakNet::BitStream::stackData"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 RakNet::BitStream::stackData。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                },
+                "region": {
+                  "startLine": 73,
+                  "startColumn": 12,
+                  "endLine": 73,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RakNet::BitStream::{ctor}",
+                  "decoratedName": "??0BitStream@RakNet@@QAE@H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "RakNet::BitStream::stackData"
+          }
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"data\" 可以是 \"0\"。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                },
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 4,
+                  "endLine": 117,
+                  "endColumn": 25
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RakNet::BitStream::{ctor}",
+                  "decoratedName": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 98,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“copyData”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 103,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“lengthInBytes>0”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“lengthInBytes<256”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "“data”是“memcpy”中的输出(在 d:\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.33.31629\\include\\vcruntime_string.h:43 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "“data”不应为 NULL，因为这与“memcpy”上的 SAL 批注不一致"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 RakNet::BitStream::stackData。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                },
+                "region": {
+                  "startLine": 94,
+                  "startColumn": 12,
+                  "endLine": 94,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RakNet::BitStream::{ctor}",
+                  "decoratedName": "??0BitStream@RakNet@@QAE@PAEI_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "RakNet::BitStream::stackData"
+          }
+        },
+        {
+          "ruleId": "C6308",
+          "message": {
+            "text": "“realloc”可能返回 null 指针: 将 null 指针赋给“data”(后者将作为参数传递给“realloc”)将导致原始内存块泄漏。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                },
+                "region": {
+                  "startLine": 621,
+                  "startColumn": 30,
+                  "endLine": 621,
+                  "endColumn": 45
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RakNet::BitStream::AddBitsAndReallocate",
+                  "decoratedName": "?AddBitsAndReallocate@BitStream@RakNet@@QAEXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"data\" 可以是 \"0\"。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                },
+                "region": {
+                  "startLine": 616,
+                  "startColumn": 6,
+                  "endLine": 616,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RakNet::BitStream::AddBitsAndReallocate",
+                  "decoratedName": "?AddBitsAndReallocate@BitStream@RakNet@@QAEXH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 591,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“numberOfBitsToWrite<=0”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 594,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 596,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“<分支条件>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 605,
+                            "startColumn": 28
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 608,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 609,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“<分支条件>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 611,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“amountToAllocate>256”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 613,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 616,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "“data”是“memcpy”中的输出(在 d:\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.33.31629\\include\\vcruntime_string.h:43 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 616,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "“data”不应为 NULL，因为这与“memcpy”上的 SAL 批注不一致"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "\"newdata\" 可以是 \"0\"。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                },
+                "region": {
+                  "startLine": 755,
+                  "startColumn": 4,
+                  "endLine": 755,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "RakNet::BitStream::AssertCopyData",
+                  "decoratedName": "?AssertCopyData@BitStream@RakNet@@QAEXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 743,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 745,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 747,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 749,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "“newdata”可能为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 755,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "“newdata”是“memcpy”的输入/输出参数(在 d:\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.33.31629\\include\\vcruntime_string.h:43 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+                          },
+                          "region": {
+                            "startLine": 755,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "“newdata”不应为 NULL，因为这与“memcpy”上的 SAL 批注不一致"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/BitStream.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7fbf0c2a9e38da5e3d3cfc6987307822267f64104e53c99ccd63cfd1fcf4158c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/bitstream.h"
+          },
+          "hashes": {
+            "sha-256": "2c9f84378f8fe01a108324093cc696515605cbf94ad962a1b3e57a2abe5aeae1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/raknetdefines.h"
+          },
+          "hashes": {
+            "sha-256": "26db601a3b89441f65fe80d851a67023156613bf3daeff5780453c541b6afab9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/export.h"
+          },
+          "hashes": {
+            "sha-256": "0c8ea223972a62e7564b8437f37e81eff4c8fa5a80f87e11b5498905f22cc21b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/networktypes.h"
+          },
+          "hashes": {
+            "sha-256": "29c2be770c2f162d3b16fa6ff12d09dc5f91397b2b65b5e4c06f020c8a91b791"
+          }
+        }
+      ]
+    }
+  ]
+}

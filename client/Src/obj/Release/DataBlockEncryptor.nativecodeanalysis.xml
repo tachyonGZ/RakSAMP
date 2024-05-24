@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\MyCode\CPP\RakSAMP\raknet\</FILEPATH>
+      <FILENAME>DataBlockEncryptor.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 DataBlockEncryptor::cipherInst。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>DataBlockEncryptor::{ctor}</FUNCTION>
+    <DECORATED>??0DataBlockEncryptor@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>DataBlockEncryptor::cipherInst</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\MyCode\CPP\RakSAMP\raknet\</FILEPATH>
+      <FILENAME>DataBlockEncryptor.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 DataBlockEncryptor::keyDecrypt。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>DataBlockEncryptor::{ctor}</FUNCTION>
+    <DECORATED>??0DataBlockEncryptor@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>DataBlockEncryptor::keyDecrypt</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>D:\MyCode\CPP\RakSAMP\raknet\</FILEPATH>
+      <FILENAME>DataBlockEncryptor.cpp</FILENAME>
+      <LINE>26</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>未初始化变量 DataBlockEncryptor::keyEncrypt。始终初始化成员变量(type.6)。</DESCRIPTION>
+    <FUNCTION>DataBlockEncryptor::{ctor}</FUNCTION>
+    <DECORATED>??0DataBlockEncryptor@@QAE@XZ</DECORATED>
+    <FUNCLINE>26</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>DataBlockEncryptor::keyEncrypt</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

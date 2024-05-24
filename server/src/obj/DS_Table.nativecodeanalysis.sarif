@@ -1,0 +1,2076 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 DataStructures::Table::Cell::i。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 14,
+                  "endLine": 32,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::Table::Cell::{ctor}",
+                  "decoratedName": "??0Cell@Table@DataStructures@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "DataStructures::Table::Cell::i"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 DataStructures::Table::Cell::c。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                },
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 14,
+                  "endLine": 32,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::Table::Cell::{ctor}",
+                  "decoratedName": "??0Cell@Table@DataStructures@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "DataStructures::Table::Cell::c"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 DataStructures::Table::Cell::c。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 14,
+                  "endLine": 53,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::Table::Cell::{ctor}",
+                  "decoratedName": "??0Cell@Table@DataStructures@@QAE@ABU012@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "DataStructures::Table::Cell::c"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 DataStructures::Table::ColumnDescriptor::columnName。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                },
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 26,
+                  "endLine": 142,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::Table::ColumnDescriptor::{ctor}",
+                  "decoratedName": "??0ColumnDescriptor@Table@DataStructures@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "DataStructures::Table::ColumnDescriptor::columnName"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 DataStructures::Table::ColumnDescriptor::columnType。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                },
+                "region": {
+                  "startLine": 142,
+                  "startColumn": 26,
+                  "endLine": 142,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::Table::ColumnDescriptor::{ctor}",
+                  "decoratedName": "??0ColumnDescriptor@Table@DataStructures@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "DataStructures::Table::ColumnDescriptor::columnType"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 DataStructures::Table::FilterQuery::columnIndex。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 21,
+                  "endLine": 351,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::Table::FilterQuery::{ctor}",
+                  "decoratedName": "??0FilterQuery@Table@DataStructures@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "DataStructures::Table::FilterQuery::columnIndex"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 DataStructures::Table::FilterQuery::cellValue。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 21,
+                  "endLine": 351,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::Table::FilterQuery::{ctor}",
+                  "decoratedName": "??0FilterQuery@Table@DataStructures@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "DataStructures::Table::FilterQuery::cellValue"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 DataStructures::Table::FilterQuery::operation。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                },
+                "region": {
+                  "startLine": 351,
+                  "startColumn": 21,
+                  "endLine": 351,
+                  "endColumn": 21
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::Table::FilterQuery::{ctor}",
+                  "decoratedName": "??0FilterQuery@Table@DataStructures@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "DataStructures::Table::FilterQuery::operation"
+          }
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "使用未初始化的内存“pass”。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                },
+                "region": {
+                  "startLine": 552,
+                  "startColumn": 7,
+                  "endLine": 552,
+                  "endColumn": 7
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::Table::QueryRow",
+                  "decoratedName": "?QueryRow@Table@DataStructures@@IAEXAAV?$List@I@2@0IPAURow@12@PAUFilterQuery@12@PAV12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                          },
+                          "region": {
+                            "startLine": 461,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "未初始化“pass”"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                          },
+                          "region": {
+                            "startLine": 462,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                          },
+                          "region": {
+                            "startLine": 463,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                          },
+                          "region": {
+                            "startLine": 466,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                          },
+                          "region": {
+                            "startLine": 473,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                          },
+                          "region": {
+                            "startLine": 473,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+                          },
+                          "region": {
+                            "startLine": 552,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "已使用“pass”，但可能尚未将其初始化"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 DataStructures::List<unsigned int>::listArray。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_List.h"
+                },
+                "region": {
+                  "startLine": 128,
+                  "startColumn": 20,
+                  "endLine": 128,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::List<unsigned int>::{ctor}",
+                  "decoratedName": "??0?$List@I@DataStructures@@QAE@ABV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "DataStructures::List<unsigned int>::listArray"
+          }
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "写入 \"dest->keys\" 时缓冲区溢出。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                },
+                "region": {
+                  "startLine": 736,
+                  "startColumn": 7,
+                  "endLine": 736,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::BPlusTree<unsigned int,DataStructures::Table::Row *,16>::InsertBranchDown",
+                  "decoratedName": "?InsertBranchDown@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@IAEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@IABQAURow@Table@2@PAU32@PAUReturnAction@12@PA_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 701,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 702,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 703,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 706,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 707,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 708,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“cur->isLeaf==0”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 710,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“<分支条件>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 712,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“branchIndex==childIndex+1”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 718,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“<分支条件>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 720,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 721,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 732,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 733,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 734,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 735,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 736,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "写入到“dest->keys[16]”无效(可写范围是 0 到 15)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "写入 \"dest->data\" 时缓冲区溢出。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                },
+                "region": {
+                  "startLine": 737,
+                  "startColumn": 7,
+                  "endLine": 737,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::BPlusTree<unsigned int,DataStructures::Table::Row *,16>::InsertBranchDown",
+                  "decoratedName": "?InsertBranchDown@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@IAEPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@IABQAURow@Table@2@PAU32@PAUReturnAction@12@PA_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 701,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 702,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 703,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 706,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 707,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 708,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“cur->isLeaf==0”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 710,
+                            "startColumn": 49
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“<分支条件>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 712,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“branchIndex==childIndex+1”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 718,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“<分支条件>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 720,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 721,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 732,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 733,
+                            "startColumn": 39
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 734,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 735,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 736,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 737,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "写入到“dest->data[16]”无效(可写范围是 0 到 15)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "正在从 \"cur->children\" 读取无效数据。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                },
+                "region": {
+                  "startLine": 263,
+                  "startColumn": 8,
+                  "endLine": 263,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::BPlusTree<unsigned int,DataStructures::Table::Row *,16>::FindDeleteRebalance",
+                  "decoratedName": "?FindDeleteRebalance@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@IAE_NIPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@PA_NIPAUReturnAction@12@AAPAURow@Table@2@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 206,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 207,
+                            "startColumn": 17
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 210,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "(别名)“branchIndex”收到“childIndex”的值"
+                        }
+                      },
+                      "kinds": [
+                        "alias"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 213,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 243,
+                            "startColumn": 64
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 248,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 249,
+                            "startColumn": 25
+                          }
+                        },
+                        "message": {
+                          "text": "“children”是“DataStructures::BPlusTree<unsigned int,DataStructures::Table::Row *,16>::DeleteFromPageAtIndex”中的输出(在第 88 行中声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 251,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“childIndex==0”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 253,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“branchIndex>0”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 256,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“branchIndex==0”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 263,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 263,
+                            "startColumn": 41
+                          }
+                        },
+                        "message": {
+                          "text": "从“cur->children[-1]”中读取无效(可读范围是 0 到 16)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 DataStructures::MemoryPool<DataStructures::Page<unsigned int,DataStructures::Table::Row *,16> >::blocksOut。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_MemoryPool.h"
+                },
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 31,
+                  "endLine": 25,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::MemoryPool<DataStructures::Page<unsigned int,DataStructures::Table::Row *,16> >::{ctor}",
+                  "decoratedName": "??0?$MemoryPool@U?$Page@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@@DataStructures@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "DataStructures::MemoryPool<DataStructures::Page<unsigned int,DataStructures::Table::Row *,16> >::blocksOut"
+          }
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "正在从 \"source->keys\" 读取无效数据。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                },
+                "region": {
+                  "startLine": 675,
+                  "startColumn": 3,
+                  "endLine": 675,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::BPlusTree<unsigned int,DataStructures::Table::Row *,16>::RotateRight",
+                  "decoratedName": "?RotateRight@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@IAEXPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@HPAUReturnAction@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 667,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 668,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 669,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 670,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 670,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“i>0”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 675,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "从“source->keys[-1]”中读取无效(可读范围是 0 到 15)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "正在从 \"source->data\" 读取无效数据。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                },
+                "region": {
+                  "startLine": 676,
+                  "startColumn": 3,
+                  "endLine": 676,
+                  "endColumn": 44
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::BPlusTree<unsigned int,DataStructures::Table::Row *,16>::RotateRight",
+                  "decoratedName": "?RotateRight@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@IAEXPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@HPAUReturnAction@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 667,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 668,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 669,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 670,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 670,
+                            "startColumn": 29
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此循环(假定“i>0”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 675,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 676,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "从“source->data[-1]”中读取无效(可读范围是 0 到 15)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "正在从 \"cur->children\" 读取无效数据。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                },
+                "region": {
+                  "startLine": 381,
+                  "startColumn": 5,
+                  "endLine": 381,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::BPlusTree<unsigned int,DataStructures::Table::Row *,16>::FixUnderflow",
+                  "decoratedName": "?FixUnderflow@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@IAE_NHPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@IPAUReturnAction@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 281,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 282,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 284,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 314,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 371,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 378,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "进入此分支(假定“branchIndex<cur->size”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 381,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "从“cur->children[-1]”中读取无效(可读范围是 0 到 16)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "正在从 \"cur->children\" 读取无效数据。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                },
+                "region": {
+                  "startLine": 387,
+                  "startColumn": 5,
+                  "endLine": 387,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DataStructures::BPlusTree<unsigned int,DataStructures::Table::Row *,16>::FixUnderflow",
+                  "decoratedName": "?FixUnderflow@?$BPlusTree@IPAURow@Table@DataStructures@@$0BA@@DataStructures@@IAE_NHPAU?$Page@IPAURow@Table@DataStructures@@$0BA@@2@IPAUReturnAction@12@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 281,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 282,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 284,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 314,
+                            "startColumn": 34
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“<分支条件>”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 371,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 378,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“branchIndex<cur->size”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+                          },
+                          "region": {
+                            "startLine": 387,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "从“cur->children[-1]”中读取无效(可读范围是 0 到 16)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_Table.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "53afdb8abd8869137d79061d1038cd59c299cf3f83b5b979966e8abb5e02381a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_List.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d7074a5ec4ee361e69eb85b3cdb13c3514bb91d93b7e7e8d98e23cd0101634f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_BPlusTree.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0c4b39d607719532fac683d375f66f116b0c22159af182d61039e52cdd94cbc6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/MyCode/CPP/RakSAMP/raknet/DS_MemoryPool.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "682fa76ff0a7531174713b70330ad95d04b49f5a9a740804d91a1473f9f9065b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/ds_table.h"
+          },
+          "hashes": {
+            "sha-256": "3c1eb63b494f0fdadfe762e1da4899488b3a0c5c7a55528da3209542cb6e3f68"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/export.h"
+          },
+          "hashes": {
+            "sha-256": "0c8ea223972a62e7564b8437f37e81eff4c8fa5a80f87e11b5498905f22cc21b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/ds_queue.h"
+          },
+          "hashes": {
+            "sha-256": "f7362d6b13774d6c27124f7dfec3536d39084d0dad5b06562ec9c869010e57fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/ds_orderedlist.h"
+          },
+          "hashes": {
+            "sha-256": "0c57699681f713e8f660b65d49b8cb6794fb38879bdcabc68671a273622795bb"
+          }
+        }
+      ]
+    }
+  ]
+}

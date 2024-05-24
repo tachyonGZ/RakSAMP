@@ -1,0 +1,1162 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::xml_attribute_struct::header。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 1096,
+                  "startColumn": 3,
+                  "endLine": 1096,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::xml_attribute_struct::{ctor}",
+                  "decoratedName": "??0xml_attribute_struct@pugi@@QAE@PAUxml_memory_page@?A0xa9911596@impl@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::xml_attribute_struct::header"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::xml_node_struct::header。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 1112,
+                  "startColumn": 3,
+                  "endLine": 1112,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::xml_node_struct::{ctor}",
+                  "decoratedName": "??0xml_node_struct@pugi@@QAE@PAUxml_memory_page@?A0xa9911596@impl@1@W4xml_node_type@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::xml_node_struct::header"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xml_buffered_writer::buffer。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 3698,
+                  "startColumn": 3,
+                  "endLine": 3698,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xml_buffered_writer::{ctor}",
+                  "decoratedName": "??0xml_buffered_writer@?A0xa9911596@impl@pugi@@QAE@AAVxml_writer@3@W4xml_encoding@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xml_buffered_writer::buffer"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xml_buffered_writer::scratch。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 3698,
+                  "startColumn": 3,
+                  "endLine": 3698,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xml_buffered_writer::{ctor}",
+                  "decoratedName": "??0xml_buffered_writer@?A0xa9911596@impl@pugi@@QAE@AAVxml_writer@3@W4xml_encoding@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xml_buffered_writer::scratch"
+          }
+        },
+        {
+          "ruleId": "C28182",
+          "message": {
+            "text": "取消对 NULL 指针的引用。“dit”包含与“copy”相同的 NULL 值。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 4466,
+                  "startColumn": 5,
+                  "endLine": 4466,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::node_copy_tree",
+                  "decoratedName": "?node_copy_tree@?A0xa9911596@impl@pugi@@YAXPAUxml_node_struct@3@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4428,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4429,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4431,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4433,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4434,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4436,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4439,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4441,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4443,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4445,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4447,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4449,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4450,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4436,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4439,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4441,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4443,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "“dit”可能为 NULL (跳过此分支)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4459,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "跳过此分支(假定“sit->next_sibling”为 false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4465,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 4466,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "已取消对“dit”的引用，但可能仍为 NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "可能没有为字符串“mantissa_buffer”添加字符串零终止符。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 8241,
+                  "startColumn": 10,
+                  "endLine": 8241,
+                  "endColumn": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::convert_number_to_string",
+                  "decoratedName": "?convert_number_to_string@?A0xa9911596@impl@pugi@@YA?AVxpath_string@123@NPAUxpath_allocator@123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8230,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8231,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8234,
+                            "startColumn": 8
+                          }
+                        },
+                        "message": {
+                          "text": "此表达式不能为“mantissa_buffer”添加字符串零终止符"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8236,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8237,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8238,
+                            "startColumn": 38
+                          }
+                        },
+                        "message": {
+                          "text": "“mantissa_buffer”是“pugi::impl::`anonymous-namespace'::convert_number_to_mantissa_exponent”中的输出(在第 8184 行中声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8241,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "“mantissa_buffer”是对“strlen”的输入(在 d:\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:215 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                          },
+                          "region": {
+                            "startLine": 8241,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "“mantissa_buffer”必须由“strlen”上的 SAL 批注添加字符串零终止符"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xpath_variable_boolean::name。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 8572,
+                  "startColumn": 3,
+                  "endLine": 8572,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_variable_boolean::{ctor}",
+                  "decoratedName": "??0xpath_variable_boolean@?A0xa9911596@impl@pugi@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_variable_boolean::name"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xpath_variable_number::name。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 8582,
+                  "startColumn": 3,
+                  "endLine": 8582,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_variable_number::{ctor}",
+                  "decoratedName": "??0xpath_variable_number@?A0xa9911596@impl@pugi@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_variable_number::name"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xpath_variable_string::name。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 8592,
+                  "startColumn": 3,
+                  "endLine": 8592,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_variable_string::{ctor}",
+                  "decoratedName": "??0xpath_variable_string@?A0xa9911596@impl@pugi@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_variable_string::name"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xpath_variable_node_set::name。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 8607,
+                  "startColumn": 3,
+                  "endLine": 8607,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_variable_node_set::{ctor}",
+                  "decoratedName": "??0xpath_variable_node_set@?A0xa9911596@impl@pugi@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_variable_node_set::name"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xpath_ast_node::_data。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 10221,
+                  "startColumn": 3,
+                  "endLine": 10221,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_ast_node::{ctor}",
+                  "decoratedName": "??0xpath_ast_node@?A0xa9911596@impl@pugi@@QAE@W4ast_type_t@123@W4xpath_value_type@3@PAV0123@2@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_ast_node::_data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xpath_ast_node::_data。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 10233,
+                  "startColumn": 3,
+                  "endLine": 10233,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_ast_node::{ctor}",
+                  "decoratedName": "??0xpath_ast_node@?A0xa9911596@impl@pugi@@QAE@W4ast_type_t@123@PAV0123@1W4predicate_t@123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_ast_node::_data"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 10699,
+                  "startColumn": 23,
+                  "endLine": 10699,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_ast_node::eval_string",
+                  "decoratedName": "?eval_string@xpath_ast_node@?A0xa9911596@impl@pugi@@QAE?AVxpath_string@234@ABUxpath_context@234@ABUxpath_stack@234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 10704,
+                  "startColumn": 26,
+                  "endLine": 10704,
+                  "endColumn": 37
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_ast_node::eval_string",
+                  "decoratedName": "?eval_string@xpath_ast_node@?A0xa9911596@impl@pugi@@QAE?AVxpath_string@234@ABUxpath_context@234@ABUxpath_stack@234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 10675,
+                  "startColumn": 23,
+                  "endLine": 10675,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_ast_node::eval_string",
+                  "decoratedName": "?eval_string@xpath_ast_node@?A0xa9911596@impl@pugi@@QAE?AVxpath_string@234@ABUxpath_context@234@ABUxpath_stack@234@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xpath_parser::_scratch。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 11935,
+                  "startColumn": 3,
+                  "endLine": 11935,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xpath_parser::{ctor}",
+                  "decoratedName": "??0xpath_parser@?A0xa9911596@impl@pugi@@QAE@PBDPAVxpath_variable_set@3@PAUxpath_allocator@123@PAUxpath_parse_result@3@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xpath_parser::_scratch"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 4516,
+                  "startColumn": 30,
+                  "endLine": 4516,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::string_to_integer",
+                  "decoratedName": "??$string_to_integer@_K@?A0xa9911596@impl@pugi@@YA_KPBD_K1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 + ，然后将结果转换到 8 字节值。在调用运算符 + 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 4518,
+                  "startColumn": 31,
+                  "endLine": 4518,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::string_to_integer",
+                  "decoratedName": "??$string_to_integer@_K@?A0xa9911596@impl@pugi@@YA_KPBD_K1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 4518,
+                  "startColumn": 31,
+                  "endLine": 4518,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::string_to_integer",
+                  "decoratedName": "??$string_to_integer@_K@?A0xa9911596@impl@pugi@@YA_KPBD_K1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "算术溢出: 使用 4 字节值上的运算符 - ，然后将结果转换到 8 字节值。在调用运算符 - 之前将值强制转换为宽类型可避免溢出(io.2)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 4540,
+                  "startColumn": 30,
+                  "endLine": 4540,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::string_to_integer",
+                  "decoratedName": "??$string_to_integer@_K@?A0xa9911596@impl@pugi@@YA_KPBD_K1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xml_stream_chunk<wchar_t>::data。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 4847,
+                  "startColumn": 3,
+                  "endLine": 4847,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xml_stream_chunk<wchar_t>::{ctor}",
+                  "decoratedName": "??0?$xml_stream_chunk@_W@?A0xa9911596@impl@pugi@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xml_stream_chunk<wchar_t>::data"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "未初始化变量 pugi::impl::`anonymous-namespace'::xml_stream_chunk<char>::data。始终初始化成员变量(type.6)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+                },
+                "region": {
+                  "startLine": 4847,
+                  "startColumn": 3,
+                  "endLine": 4847,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "pugi::impl::`anonymous-namespace'::xml_stream_chunk<char>::{ctor}",
+                  "decoratedName": "??0?$xml_stream_chunk@D@?A0xa9911596@impl@pugi@@QAE@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "pugi::impl::`anonymous-namespace'::xml_stream_chunk<char>::data"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/MyCode/CPP/RakSAMP/pugixml/pugixml.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "01af78e409f8c15f344a5dc01bdf620173a64d368098c128ff0e1a2b8667c365"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/pugixml/pugixml.hpp"
+          },
+          "hashes": {
+            "sha-256": "83a4d7d6d5951f0a5d62d564ef1eb3ac6a5569675524d33a7d5355d300901393"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/pugixml/pugiconfig.hpp"
+          },
+          "hashes": {
+            "sha-256": "6eafa8ec6c45cda46fb9655b2fc28dfb0f32c7b8f4f0e7638c2e81035c7a75ee"
+          }
+        }
+      ]
+    }
+  ]
+}

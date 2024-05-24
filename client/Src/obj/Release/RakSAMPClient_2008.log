@@ -1,0 +1,84 @@
+﻿生成启动时间为 2022/8/21 16:17:16。
+日志记录详细程度设置为: Normal。     1>项目“D:\MyCode\CPP\RakSAMP\client\Src\RakSAMPClient_2008.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“./obj/Release/\RakSAMPClient.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\CL.exe /c /I./ /I../../raknet/ /I../../raknet/SAMP/ /Isqlite3/ /nologo /W3 /WX- /diagnostics:column /O2 /Ot /Oy /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D RAKSAMP_CLIENT /D _MBCS /Gm- /EHsc /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"./obj/Release/\\" /Fd"./obj/Release/\vc143.pdb" /external:W3 /Gd /TP /analyze- /FC /errorReport:prompt window.cpp
+         window.cpp
+       ResourceCompile:
+         所有输出均为最新。
+     1>D:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1391,5): warning MSB8012: TargetPath(D:\MyCode\CPP\RakSAMP\client\Src\obj\Release\RakSAMPClient.exe) 与 Linker 的 OutputFile 属性值(D:\MyCode\CPP\RakSAMP\client\bin\RakSAMPClient.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+       Link:
+         D:\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"./../bin/RakSAMPClient.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:sqlite3/ ws2_32.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST:NO /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"./obj/Release/\RakSAMPClient.lib" /MACHINE:X86 /SAFESEH ./obj/Release/\RakSAMPClient.res
+         ./obj/Release/\pugixml.obj
+         ./obj/Release/\_findfirst.obj
+         ./obj/Release/\AsynchronousFileIO.obj
+         ./obj/Release/\BitStream.obj
+         ./obj/Release/\BitStream_NoTemplate.obj
+         ./obj/Release/\CheckSum.obj
+         ./obj/Release/\DataBlockEncryptor.obj
+         ./obj/Release/\DataCompressor.obj
+         ./obj/Release/\DS_ByteQueue.obj
+         ./obj/Release/\DS_HuffmanEncodingTree.obj
+         ./obj/Release/\DS_Table.obj
+         ./obj/Release/\EncodeClassName.obj
+         ./obj/Release/\GetTime.obj
+         ./obj/Release/\InternalPacketPool.obj
+         ./obj/Release/\LinuxStrings.obj
+         ./obj/Release/\NetworkIDGenerator.obj
+         ./obj/Release/\NetworkTypes.obj
+         ./obj/Release/\PluginInterface.obj
+         ./obj/Release/\RakClient.obj
+         ./obj/Release/\RakNetStatistics.obj
+         ./obj/Release/\RakNetworkFactory.obj
+         ./obj/Release/\RakPeer.obj
+         ./obj/Release/\rakserver.obj
+         ./obj/Release/\RakSleep.obj
+         ./obj/Release/\Rand.obj
+         ./obj/Release/\ReliabilityLayer.obj
+         ./obj/Release/\rijndael.obj
+         ./obj/Release/\RPCMap.obj
+         ./obj/Release/\SHA1.obj
+         ./obj/Release/\SimpleMutex.obj
+         ./obj/Release/\SocketLayer.obj
+         ./obj/Release/\StringCompressor.obj
+         ./obj/Release/\StringTable.obj
+         ./obj/Release/\SystemAddressList.obj
+         ./obj/Release/\TableSerializer.obj
+         ./obj/Release/\samp_auth.obj
+         ./obj/Release/\samp_netencr.obj
+         ./obj/Release/\SAMPRPC.obj
+         ./obj/Release/\tinystr.obj
+         ./obj/Release/\tinyxml.obj
+         ./obj/Release/\tinyxmlerror.obj
+         ./obj/Release/\tinyxmlparser.obj
+         ./obj/Release/\cmds.obj
+         ./obj/Release/\common.obj
+         ./obj/Release/\console.obj
+         ./obj/Release/\localplayer.obj
+         ./obj/Release/\LogManager.obj
+         ./obj/Release/\main.obj
+         ./obj/Release/\math_stuff.obj
+         ./obj/Release/\misc_funcs.obj
+         ./obj/Release/\netgame.obj
+         ./obj/Release/\netrpc.obj
+         ./obj/Release/\rcon.obj
+         ./obj/Release/\Settings.obj
+         ./obj/Release/\window.obj
+         ./obj/Release/\xmlsets.obj
+         RakSAMPClient_2008.vcxproj -> D:\MyCode\CPP\RakSAMP\client\Src\obj\Release\RakSAMPClient.exe
+       FinalizeBuildStatus:
+         正在删除文件“./obj/Release/\RakSAMPClient.tlog\unsuccessfulbuild”。
+         正在对“./obj/Release/\RakSAMPClient.tlog\RakSAMPClient.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\MyCode\CPP\RakSAMP\client\Src\RakSAMPClient_2008.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+       “D:\MyCode\CPP\RakSAMP\client\Src\RakSAMPClient_2008.vcxproj”(Build 目标) (1) ->
+       (DoLinkOutputFilesMatch 目标) -> 
+         D:\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1391,5): warning MSB8012: TargetPath(D:\MyCode\CPP\RakSAMP\client\Src\obj\Release\RakSAMPClient.exe) 与 Linker 的 OutputFile 属性值(D:\MyCode\CPP\RakSAMP\client\bin\RakSAMPClient.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+
+    1 个警告
+    0 个错误
+
+已用时间 00:00:01.15

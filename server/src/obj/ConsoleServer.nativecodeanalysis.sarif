@@ -1,0 +1,99 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.33.31629.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/consoleserver.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "22018e6758fa88e63596895872eeeab93bcd91b545254a4ae7974472cbffe23e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/consoleserver.h"
+          },
+          "hashes": {
+            "sha-256": "d0643e9630d19311be6e84124a426e876418eb3ab3243751eedc11ad0e512e75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/ds_list.h"
+          },
+          "hashes": {
+            "sha-256": "d7074a5ec4ee361e69eb85b3cdb13c3514bb91d93b7e7e8d98e23cd0101634f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/export.h"
+          },
+          "hashes": {
+            "sha-256": "0c8ea223972a62e7564b8437f37e81eff4c8fa5a80f87e11b5498905f22cc21b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/networktypes.h"
+          },
+          "hashes": {
+            "sha-256": "29c2be770c2f162d3b16fa6ff12d09dc5f91397b2b65b5e4c06f020c8a91b791"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/raknetdefines.h"
+          },
+          "hashes": {
+            "sha-256": "26db601a3b89441f65fe80d851a67023156613bf3daeff5780453c541b6afab9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/transportinterface.h"
+          },
+          "hashes": {
+            "sha-256": "969fa1b42b459ad90811b07244f8790bfb106f79ed37efd7a48e841fdef7a19b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/commandparserinterface.h"
+          },
+          "hashes": {
+            "sha-256": "595c23a70a38518469facf28ee3d7369fa8cbc113bdaac181175919e36062285"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/mycode/cpp/raksamp/raknet/ds_orderedlist.h"
+          },
+          "hashes": {
+            "sha-256": "0c57699681f713e8f660b65d49b8cb6794fb38879bdcabc68671a273622795bb"
+          }
+        }
+      ]
+    }
+  ]
+}
